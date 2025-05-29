@@ -102,7 +102,7 @@ const default_config = {
               url: "https://archive.org",
               icon: "binary-tree",
               icon_color: palette.red,
-            }
+            },
           ],
         },
         {
@@ -154,6 +154,24 @@ const default_config = {
               url: "https://somafm.com/",
               icon: "device-speaker",
               icon_color: palette.green,
+            },
+            {
+              name: "nts",
+              url: "https://www.nts.live/",
+              icon: "radio",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "the lot radio",
+              url: "https://www.thelotradio.com/",
+              icon: "device-audio-tape",
+              icon_color: palette.red,
+            },
+            {
+              name: "intergalactic",
+              url: "https://intergalactic.fm/",
+              icon: "planet",
+              icon_color: palette.peach,
             },
           ],
         },
