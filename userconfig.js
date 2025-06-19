@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -114,6 +114,29 @@ const default_config = {
               icon: "brand-netflix",
               icon_color: palette.green,
             },
+            {
+              name: "odysee",
+              url: "https://odysee.com/",
+              icon: "ufo",
+              icon_color: palette.peach,
+            },
+            {
+              name: "google psyops",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
+              icon_color: palette.peach,
+            },
+          ],
+        },
+        {
+          name: "world",
+          links: [
+            {
+              name: "404 media",
+              url: "https://www.404media.co/",
+              icon: "error-404",
+              icon_color: palette.green,
+            }
           ],
         },
       ],
