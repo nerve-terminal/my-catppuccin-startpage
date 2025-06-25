@@ -103,6 +103,17 @@ const default_config = {
               icon: "binary-tree",
               icon_color: palette.red,
             },
+            {
+              name: "world",
+              links: [
+                {
+                  name: "404 media",
+                  url: "https://www.404media.co/",
+                  icon: "error-404",
+                  icon_color: palette.green,
+                }
+              ],
+            },
           ],
         },
         {
@@ -126,17 +137,6 @@ const default_config = {
               icon: "brand-youtube",
               icon_color: palette.peach,
             },
-          ],
-        },
-        {
-          name: "world",
-          links: [
-            {
-              name: "404 media",
-              url: "https://www.404media.co/",
-              icon: "error-404",
-              icon_color: palette.green,
-            }
           ],
         },
       ],
