@@ -65,6 +65,23 @@ const default_config = {
             },
           ],
         },
+        {
+          name: "world",
+          links: [
+            {
+              name: "404 media",
+              url: "https://www.404media.co/",
+              icon: "error-404",
+              icon_color: palette.green,
+            },
+            {
+              name: "S2 Underground Common Intelligence Picture (CIP)",
+              url: "https://www.arcgis.com/home/item.html?id=204a59b01f4443cd96718796fd102c00",
+              icon: "eye",
+              icon_color: palette.red,
+            }
+          ],
+        },
       ],
     },
     {
@@ -102,23 +119,6 @@ const default_config = {
               url: "https://archive.org",
               icon: "binary-tree",
               icon_color: palette.red,
-            },
-            {
-              name: "world",
-              links: [
-                {
-                  name: "404 media",
-                  url: "https://www.404media.co/",
-                  icon: "error-404",
-                  icon_color: palette.green,
-                },
-                {
-                  name: "S2 Underground Common Intelligence Picture (CIP)",
-                  url: "https://www.arcgis.com/home/item.html?id=204a59b01f4443cd96718796fd102c00",
-                  icon: "eye",
-                  icon_color: palette.red,
-                }
-              ],
             },
           ],
         },
