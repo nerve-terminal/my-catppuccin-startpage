@@ -202,6 +202,12 @@ const default_config = {
               icon: "planet",
               icon_color: palette.peach,
             },
+            {
+              name: "sedr.space",
+              url: "https://www.sedr.space/",
+              icon: "braille",
+              icon_color: palette.green,
+            },
           ],
         },
         {
